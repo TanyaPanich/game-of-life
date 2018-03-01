@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  
+  //fresh start
+  $('#')
   // const maxRows = 20
   // const maxCols = 20
   // const tickPeriodMs = 1000

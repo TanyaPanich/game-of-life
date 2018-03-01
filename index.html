@@ -7,7 +7,30 @@
 </head>
 <body>
     <h2>Game of life</h2>
-    <table id="cell-table"></table>
+    <!--Fresh start-->
+    <form>
+      <div>
+        <button id="dump-config-btn">Dump config</button>
+        <span>Show current config on console</span>
+      </div>
+      <div>
+        <button id="clear-btn">Clear</button>
+        <span>Torch it</span>
+      </div>
+      <div>
+        <button id="one-tick-btn">One Tick</button>
+        <span>One generation step</span>
+      </div>
+      <div>
+        <button id="start-btn">Start Ticking</button>
+        <span>Start automatically advancing gernations</span>
+      </div>
+      <div>
+        <button id="stop-btn">Stop Ticking</button>
+        <span>Stop automatically advancing gernations</span>
+      </div>
+    </form>
+    <!-- <table id="cell-table"></table>
     <form>
         <h3>Controls</h3>
         <div>
@@ -28,7 +51,7 @@
         <div>
           <button id="stop-ticking-btn">Stop Ticking</button><span>Stop auto advancing.</span>
         </div>
-    </form>
+    </form> -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="app.js"></script>
 </body>
